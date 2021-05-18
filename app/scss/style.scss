@@ -34,7 +34,6 @@
   &__list-link--active {
     color: $accent;
     border-bottom: 1px solid $accent;
-    @extend %quicksand-500;
   }  
 }
 
