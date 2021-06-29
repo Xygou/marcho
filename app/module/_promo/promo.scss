@@ -5,7 +5,7 @@
   background-position: center center;
   padding: 150px 0 160px;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   &__inner {
     max-width: 570px;
     width: 100%;
@@ -49,5 +49,41 @@
     border: 1px solid $accent;
     padding: 14px 27px;
     margin-top: 55px;
+  }
+}
+
+@media (max-width: 860px) {
+  .promo {
+    margin-bottom: 0;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .promo {
+    padding-top: 60px;
+    margin-bottom: 0;
+    &__clock {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__clock-item {
+      margin: 20px 35px;
+    }
+  }
+}
+
+
+@media (max-width: 450px) {
+  .promo {
+    &__clock {
+      margin-top: 30px;
+    }
+    &__clock-item {
+      margin: 8px;
+    }
+    &__link {
+      margin-top: 30px;
+    }
   }
 }

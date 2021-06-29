@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>marcho</title>
   <link rel="stylesheet" href="css/index.min.css">
 </head>
@@ -17,12 +17,15 @@
         <img class="logo__img" src="images/logo.png" alt="logo">
       </a>
       <nav class="menu">
+        <button class="menu__btn">
+        <span></span>
+        </button>
         <ul class="menu__list">
           <li class="menu__list-item">
             <a class="menu__list-link menu__list-link--active" href="#">home</a>
           </li>
           <li class="menu__list-item">
-            <a class="menu__list-link" href="http://localhost:3000/shop.html">shop</a>
+            <a class="menu__list-link" href="#">shop</a>
           </li>
           <li class="menu__list-item">
             <a class="menu__list-link" href="#">page</a>
@@ -62,8 +65,8 @@
           <div class="top-slider__item">
             <div class="top-slider__content">
               <div class="top-slider__title">
-                SMART AND
-                TRENDY
+                New Season<br>
+                New Brand Collection
               </div>
               <p class="top-slider__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -73,7 +76,7 @@
                 BUY NOW
               </a>
             </div>
-            <img src="images/slider/photo.png" alt="slide images">
+            <img  class="top-slider__img"src="images/slider/photo.png" alt="slide images">
           </div>
           <div class="top-slider__item">
             <div class="top-slider__content">
@@ -89,7 +92,7 @@
                 BUY NOW
               </a>
             </div>
-            <img src="images/slider/photo.png" alt="slide images">
+            <img class="top-slider__img" src="images/slider/photo.png" alt="slide images">
           </div>
           <div class="top-slider__item">
             <div class="top-slider__content">
@@ -105,7 +108,7 @@
                 BUY NOW
               </a>
             </div>
-            <img src="images/slider/photo.png" alt="slide images">
+            <img class="top-slider__img" src="images/slider/photo.png" alt="slide images">
           </div>
           <div class="top-slider__item">
             <div class="top-slider__content">
@@ -121,7 +124,7 @@
                 BUY NOW
               </a>
             </div>
-            <img src="images/slider/photo.png" alt="slide images">
+            <img class="top-slider__img" src="images/slider/photo.png" alt="slide images">
           </div>
         </div>
       </div>
@@ -234,7 +237,7 @@
             </a>
           </div>
           <div class="video-fashion__content">
-            <p class="video-fashion__subitlte">
+            <p class="video-fashion__subtitle">
               Winter Collection 20% Off
             </p>
             <h3 class="video-fashion__title title">
@@ -560,7 +563,7 @@
         </div>
       </div>
     </div>
-    <div class="parnters">
+    <div class="partners">
       <div class="container">
         <ul class="partners__list">
           <li class="partners__item">
@@ -671,7 +674,7 @@
   <footer class="footer">
   <div class="container">
     <div class="footer-top">
-      <div class="footer-top__item footer-top__contact">
+      <div class="footer-top__contact">
         <a class="logo footer-top__logo" href="#">
           <img class="logo__img" src="images/logo.png" alt="logo">
         </a>
@@ -739,8 +742,8 @@
           </li>
         </ul>
       </div>
-      <ul class="footer-top__item footer-top__nav">
-        <h6 class="footer-top__title">
+      <ul class="footer-top__list ">
+        <h6 class="footer-top__title footer-top__title-btn">
           Useful Links
         </h6>
         <li class="footer-top__item">
@@ -759,8 +762,8 @@
           <a class="footer-top__link" href="#">Help & Support</a>
         </li>
       </ul>
-      <ul class="footer-top__item footer-top__nav">
-        <h6 class="footer-top__title">
+      <ul class="footer-top__list ">
+        <h6 class="footer-top__title footer-top__title-btn">
           My Account
         </h6>
         <li class="footer-top__item">
@@ -779,7 +782,7 @@
           <a class="footer-top__link" href="#">Check Out</a>
         </li>
       </ul>
-      <div class="footer-top__item footer-top__item-form">
+      <div class=" footer-top__item-form">
         <h6 class="footer-top__title">
           Subscribe Our Newsletter
         </h6>
@@ -806,7 +809,7 @@
     </div>
   </div>
 </footer>
-
+  
   <script src="js/main.min.js"></script>
 </body>
 
